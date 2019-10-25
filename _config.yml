@@ -1,10 +1,38 @@
 ---
-title: Enchanted Tiki Shed
+title: The Enchanted Tiki Shed
 timezone: UTC
 collections:
+  cocktails:
+    title: Cocktails
+    output: true
+    layout: cocktail
+    permalink: /cocktail/:title
   posts:
-    title: Posts
+    title: News
     output: true
-  uploads:
-    title: Uploads
-    output: true
+    layout: post
+author: Jungle Skipper
+description: 
+url: https://enchantedtikished.com
+twitter:
+  username: _jungleskippr
+social:
+  name: Jungle Skipper
+  links:
+    - https://twitter.com/_jungleskippr
+    - https://www.facebook.com/thejungleskipper
+    - https://instagram.com/_jungleskippr
+lang: en_UK
+baseurl: ""
+paginate: 10
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jemoji
+permalink: "/:categories/:title"
+sass:
+  sass_dir: _sass
+emptyArray: []
