@@ -5,12 +5,15 @@ collections:
   cocktails:
     title: Cocktails
     output: true
+    permalink: "/cocktail/:title"
     layout: cocktail
-    permalink: /cocktail/:title
   posts:
     title: News
     output: true
     layout: post
+  uploads:
+    title: Uploads
+    output: true
 author: Jungle Skipper
 description: 
 url: https://enchantedtikished.com
@@ -19,19 +22,19 @@ twitter:
 social:
   name: Jungle Skipper
   links:
-    - https://twitter.com/_jungleskippr
-    - https://www.facebook.com/thejungleskipper
-    - https://instagram.com/_jungleskippr
+  - https://twitter.com/_jungleskippr
+  - https://www.facebook.com/thejungleskipper
+  - https://instagram.com/_jungleskippr
 lang: en_UK
-baseurl: ""
+baseurl: ''
 paginate: 10
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jemoji
+- jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jemoji
 permalink: "/:categories/:title"
 sass:
   sass_dir: _sass

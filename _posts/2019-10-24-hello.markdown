@@ -1,6 +1,9 @@
 ---
+title: Welcome
+date: 2019-10-24 00:00:00 Z
+categories:
+- news
 layout: post
-title:  "Welcome"
-categories: news
 ---
+
 Hello
