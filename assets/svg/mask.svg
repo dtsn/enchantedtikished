@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="963px" height="510px" viewBox="0 0 963 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-161.000000, -162.000000)" fill-rule="nonzero" fill="#F96C57">
+            <g id="Screenshot-2019-10-24-at-08.06.51" transform="translate(161.000000, 162.000000)">
+                <path d="M0,0 L963,0 L963,510 L0,510 L0,0 Z M379.420014,12.5407613 L12,9.72457627 L12,485.122981 L691.175931,492.975628 L708.74468,463.046471 L732.114892,493.448965 L952.738281,495.999818 L950.973346,412.34927 L921.133136,401.221706 L950.353326,382.962905 L942.628906,16.8576205 L448.062617,13.0668902 L418.515949,63.4009734 L379.420014,12.5407613 Z" id="Mask"></path>
+            </g>
+        </g>
+    </g>
+</svg>
