@@ -26,7 +26,7 @@ social:
   - https://www.facebook.com/thejungleskipper
   - https://instagram.com/_jungleskippr
 lang: en_UK
-baseurl: ''
+baseurl: 
 paginate: 10
 plugins:
 - jekyll-paginate
@@ -38,4 +38,3 @@ plugins:
 permalink: "/:categories/:title"
 sass:
   sass_dir: _sass
-emptyArray: []
