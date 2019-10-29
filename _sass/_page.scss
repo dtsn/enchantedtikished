@@ -22,24 +22,38 @@ header {
 			text-transform: uppercase;
 			font-size: 20px;
 			color: #FFF;
-			margin: 0 15px;
+			margin: 0 10px;
+			position: relative;
 
 			&:last-child {
 				margin-right: 0;
 			}
 
 			&:hover {
-				color: #FFF;
 				text-decoration: none;
-				border-bottom: 2px solid #FFF;
-				transition: .3s ease-in-out;
+				color: #FFF;
+			}
+
+			&:after {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 0%;
+				content: '.';
+				color: transparent;
+				background: #fff;
+				height: 1px;
+				transition: all .5s;
+			}
+			&:hover:after {
+  				width: 100%;
 			}
 
 			.ampersand {
-				svg {
-				height: 18px;
-				width: 11px;
-			}
+				height: 20px;
+				margin-bottom: -3px;
 			}
 		}
 	}
