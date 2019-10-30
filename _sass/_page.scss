@@ -1,4 +1,8 @@
-body, html {
+html {
+	background: #FBF5EB;
+}
+
+body {
 	background: #F96C57;
 	color: #fff;
 }
@@ -60,9 +64,21 @@ header {
 }
 
 footer {
+	position: relative;
 	background: #FBF5EB;
-	bottom: -5%;
-	left: -5%;
-	width: 110%;
-	transform: rotate(-3deg);
+	margin-top: 160px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		display: block;
+		height: 200px;
+		width: 120%;
+		left: -10%;
+		right: -10%;
+		top: -60px;
+		background: #FBF5EB;
+		transform: rotate(-3deg);
+	}
+
 }
