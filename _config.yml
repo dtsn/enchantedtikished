@@ -2,11 +2,6 @@
 title: The Enchanted Tiki Shed
 timezone: UTC
 collections:
-  cocktails:
-    title: cocktails
-    output: true
-    permalink: "/cocktails/:title"
-    layout: cocktail
   posts:
     title: News
     output: true
@@ -14,6 +9,11 @@ collections:
   uploads:
     title: Uploads
     output: true
+  cocktails:
+    title: cocktails
+    output: true
+    permalink: "/cocktails/:title"
+    layout: cocktail
 author: Jungle Skipper
 description: 
 url: https://enchantedtikished.com
