@@ -3,9 +3,9 @@ title: The Enchanted Tiki Shed
 timezone: UTC
 collections:
   cocktails:
-    title: Cocktails
+    title: cocktails
     output: true
-    permalink: "/cocktail/:title"
+    permalink: "/cocktails/:title"
     layout: cocktail
   posts:
     title: News
