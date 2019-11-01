@@ -56,9 +56,8 @@ section {
 	}
 
 	.btn {
-		font-weight: bold;
 		border: 1px solid #FFF;
-		padding: 10px 15px;
+		padding: 10px 30px;
 		text-transform: uppercase;
 		color: #FFF;
 
@@ -67,10 +66,12 @@ section {
 			color: #F96C57;
 		}
 	}
-}
 
-section.build {
-	margin-top: 60px;
+	&.build {
+		h3 {
+			margin-top: 20px;
+		}
+	}
 }
 
 

@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	padding: 30px 0;
+	padding: 30px 0 0;
 	overflow: hidden;
 
 	#logo {
@@ -72,13 +72,24 @@ footer {
 		content: '';
 		position: absolute;
 		display: block;
-		height: 200px;
+		height: 100px;
 		width: 120%;
 		left: -10%;
 		right: -10%;
 		top: -60px;
 		background: #FBF5EB;
 		transform: rotate(-2deg);
+	}
+
+	.sub-footer {
+		border-top: 1px solid rgba(119,119,119,0.1);
+		color: #7B7B78;
+		font-size: 12px;
+
+		p {
+			padding: 20px 0;
+			margin: 0;
+		}
 	}
 
 }
