@@ -3,15 +3,13 @@ title: Headless Horseman
 date: 2019-10-29 12:36:00 Z
 layout: cocktail
 youtube: 3RPNLMmbWYw
-
-thumb: /assets/images/headless-horseman.png
-
-description: Have you heard the legend of the Headless Horseman? Strawberry Daiquiri, served in the head of his last victim.
-
+thumb: "/assets/images/headless-horseman.png"
+description: Have you heard the legend of the Headless Horseman? Strawberry Daiquiri,
+  served in the head of his last victim.
 ingredients:
- - 1 Cup Frozen Strawberries
- - Lemon & Lime soda
- - 2x White rum
+- 1 Cup Frozen Strawberries
+- Lemon & Lime soda
+- 2x White rum
 ---
 
 The opening cocktail of the 2019 Freaky Tiki Halloween overlay. This cocktail is the latest victim of the headless horseman. A legend of our old English lane (we live on a lane over a 100 years old) who slices the head of his victims. The cocktail is served in the cold (blue) head of his last victim. It features a garnish of dripping blood around the rim, and oozing brains (strawberry laces). Filled with a slushy strawberry daiquiri it's the perfect representation of Halloween.

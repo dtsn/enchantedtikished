@@ -3,18 +3,15 @@ title: Call In The Spirits
 date: 2019-10-29 12:36:00 Z
 layout: cocktail
 youtube: NElwUzDmvlc
-
-thumb: /assets/images/cocktails/call-in-the-spirits/1.jpg
-
-description: Join Madam Leota as we try and contact the re-gin beyond. Gin, mint, blackberries and your soul makes it way into this ghoulish drink.
-
+thumb: "/assets/images/cocktails/call-in-the-spirits/1.jpg"
+description: Join Madam Leota as we try and contact the re-gin beyond. Gin, mint,
+  blackberries and your soul makes it way into this ghoulish drink.
 ingredients:
- - 2x Blackberries
- - 2x Mint leaves
- - 1x Lemon juice
- - 2x Gin
- - 1x Simple Syrup
-
+- 2x Blackberries
+- 2x Mint leaves
+- 1x Lemon juice
+- 2x Gin
+- 1x Simple Syrup
 ---
 
 This cocktail is inspired by one of my all-time favourite rides, the Haunted Mansion. Join us as we join with Madam Leota and hold a seance to try and contact the re-gin beyond.
