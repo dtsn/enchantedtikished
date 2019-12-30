@@ -4,9 +4,8 @@ html, body {
 
 header {
 	background: #FD6C53;
-	padding: 30px 0 0;
+	padding: 30px 0 40px;
 	overflow: hidden;
-	height: 500px;
 
 	#logo {
 		float: left;
@@ -60,9 +59,14 @@ header {
 	}
 }
 
-.content section:first-child {
-	margin-top: -300px;
-	padding-top: 0;
+body.home {
+	header {
+		height: 500px;
+	}
+	.content section:first-child {
+		margin-top: -300px;
+		padding-top: 0;
+	}
 }
 
 .purple {
@@ -73,30 +77,73 @@ header {
 footer {
 	position: relative;
 	background: #FBF5EB;
-	margin-top: 160px;
+	margin-top: 45px;
+	padding-top: 45px;
+	border-top: 1px solid rgba(119,119,119,0.1);
 
-	&:before {
-		content: '';
-		position: absolute;
-		display: block;
-		height: 100px;
-		width: 120%;
-		left: -10%;
-		right: -10%;
-		top: -60px;
-		background: #FBF5EB;
-		transform: rotate(-2deg);
+	h3 {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
+
+	a {
+		color: #2A2A2A;
+
+		&:hover {
+			text-decoration: underline;
+			color: #FD6C53;
+		}
+	}
+
+
 
 	.sub-footer {
 		border-top: 1px solid rgba(119,119,119,0.1);
 		color: #7B7B78;
 		font-size: 12px;
+		margin-top: 90px;
 
 		p {
 			padding: 20px 0;
 			margin: 0;
 		}
-	}
 
+		img {
+			float: right;
+			width: 32px;
+			padding: 13px 0;
+		}
+	}
+}
+
+body.home footer {
+	border-top: 0;
+}
+
+.collection-list {
+	a {
+		display: block;
+		position: relative;
+		margin-top: 20px;
+
+		img {
+			width: 100%;
+		}
+
+		span.title {
+			position: absolute;
+			left: 50%;
+			margin-left: -100px;
+			top: 50%;
+			margin-top: -30px;
+			font-weight: bold;
+			border: 1px solid #FFF;
+			padding: 20px 20px;
+			text-transform: uppercase;
+			color: #FFF;
+			width: 200px;
+			text-align: center;
+		}
+	}
 }

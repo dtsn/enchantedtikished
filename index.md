@@ -32,12 +32,12 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<img src="/assets/images/cocktail-homepage.png" />
+				<img src="/assets/images/headless-horseman.png" />
 			</div>
 			<div class="col-12 col-md-6">
 				<h3>See the latest cocktails</h3>
 				<p>Each custom cocktail is design, made and served with unique sound and lighting effects. Making the Enchanted Tiki Shed one of the best places to experience the drinks.</p>
-				<a class="btn btn-outline-light" href="/build">See them all &#11106;</a>
+				<a class="btn btn-outline-light" href="/build">Get Inspired &#11106;</a>
 			</div>
 		</div>
 	</div>

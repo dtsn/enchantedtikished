@@ -4,3 +4,29 @@ body {
 	-webkit-font-smoothing: antialiased;
 	color: #2A2A2A;
 }
+
+a {
+	color: #FD6C53;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #FD6C53;
+	margin-top: 65px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #FD6C53;
+	margin: 20px 0;
+	line-height: 24px;
+}

@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-
 <div class="container collection-list">
-	<div class="row">
-		<div class="col-sm-8">
-			{% assign posts = site[page.collection] %}
-			{% if posts == null %}
-				<p>Sorry, but there is no content here yet. Please check back soon.</p>
-			{% else %}
-				{% include list.html posts=posts %}
-			{% endif %}
+	{% assign posts = site[page.collection] %}
+	{% for post in posts %}
+		{% cycle '<div class="row">','','','' %}
+		<div class="col-4">
+			<a href="{{ post.url }}">
+				<img src="{% if post.thumb %}{{post.thumb}}{% else %}{{post.image}}{% endif %}" alt="{{ post.title }}" />
+				<span class="title">
+					{{ post.title }}
+				</span>
+			</a>
 		</div>
-	</div>
+		{% cycle '','','','</div>' %}
+	{% endfor %}
 </div>
